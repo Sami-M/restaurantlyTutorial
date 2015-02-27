@@ -3,8 +3,10 @@ source 'http://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
-# Use sqlite3 as the database for Active Record
+# Use postgres as the database for Active Record
 gem 'pg'
+gem 'selenium-webdriver'
+gem 'database_cleaner', '~> 1.2.0'
 
 gem 'thin'
 gem 'haml-rails'
